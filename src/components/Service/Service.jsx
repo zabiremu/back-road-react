@@ -6,7 +6,7 @@ const Service = () => {
   const [services, setServices] = useState([]);
   useEffect(() => {
     setServices(ourServices);
-  });
+  },[]);
   return (
     <>
       <section className="section services" id="services">
