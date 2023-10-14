@@ -13,7 +13,7 @@ const PageLinks = ({ parentClass, childClass }) => {
             return (
               <div key={item.id}>
                 <li>
-                  <a href={item.href} className={childClass} style={{color:"red"}}>
+                  <a href={item.href} className={childClass}>
                     {item.text}
                   </a>
                 </li>
